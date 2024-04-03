@@ -16,8 +16,8 @@ $$
 \text{dst}_X(WH) = \frac{1}{2mn}|| WH - X||_F^2
 $$
 
-$
-$g_M(W) =  \frac{1}{2mk} ||W[:,:k] \odot (1-M)||_F^2 = \frac{1}{2mk}\sum_{i=1}^{m} \sum_{j=1}^{k} W_{ij}^2 (1-M_{ij}) \
+$$
+g_M(W) =  \frac{1}{2mk} ||W[:,:k] \odot (1-M)||_F^2 = \frac{1}{2mk}\sum_{i=1}^{m} \sum_{j=1}^{k} W_{ij}^2 (1-M_{ij}) 
 $$
 
 To do so we use alterned gradient descent.
